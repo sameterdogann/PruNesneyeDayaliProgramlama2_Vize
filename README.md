@@ -1,7 +1,7 @@
-# 📚 SmartLibrary  
+#  SmartLibrary  
 ### Java • SQLite • JDBC • OOP • Maven Konsol Uygulaması
 
-## 👨‍💻 Proje Sahibi
+##  Proje Sahibi
 
 - ****Ad Soyad:**** Samet ERDOĞAN
 
@@ -35,7 +35,7 @@ tümü programda uygulanmıştır.
 
 ---
 
-## 🔧 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 | Teknoloji | Kullanım Amacı |
 |---|---|
@@ -50,7 +50,7 @@ tümü programda uygulanmıştır.
 
 ---
 
-## 📦 Kurulum
+## Kurulum
 
 ### 1️⃣ Projeyi IntelliJ IDEA ile Aç  
 ✔ File → Open → PruNesneyeDayaliProg2_Vize klasörünü seç  
@@ -83,7 +83,7 @@ smartlibrary.db
 
 ---
 
-## 🗄 Veri Tabanı Yapısı (Otomatik Oluşur)
+## Veri Tabanı Yapısı (Otomatik Oluşur)
 
 | Tablo | Alanlar |
 |---|---|
@@ -93,40 +93,40 @@ smartlibrary.db
 
 ---
 
-## 🔥 Uygulama Özellikleri – CRUD Tamamlandı
+## Uygulama Özellikleri – CRUD Tamamlandı
 
 | İşlem | Açıklama |
 |---|---|
-| 📗 Kitap Ekle | `addBook(name,author)` |
-| 📄 Kitapları Listele | `listBooks()` |
-| 🗑 Kitap Sil | `deleteBook(id)` |
-| 🎓 Öğrenci Ekleme (Genişletilebilir) | Student repository yapısı için hazır |
-| 🔄 Ödünç Alma – İade | Loan işlemleri için altyapı oluşturuldu |
+| Kitap Ekle | `addBook(name,author)` |
+| Kitapları Listele | `listBooks()` |
+| Kitap Sil | `deleteBook(id)` |
+| Öğrenci Ekleme (Genişletilebilir) | Student repository yapısı için hazır |
+| Ödünç Alma – İade | Loan işlemleri için altyapı oluşturuldu |
 
 ---`
 
 ---
 
-## 🧪 Örnek Çalıştırma Çıktısı
+## Örnek Çalıştırma Çıktısı
 
 ```
 ## (Önemli Not :Listeleme Sorgularını yapmadan önce lütfen öğrenci ve kitap ekleyin.)
 ✔ SQLite bağlantısı başarılı.
-📌 Tablo kontrol edildi/oluşturuldu.
-📗 Kitap eklendi → 1984 (George Orwell)
-📗 Kitap eklendi → Suç ve Ceza (Dostoyevski)
+ Tablo kontrol edildi/oluşturuldu.
+ Kitap eklendi → 1984 (George Orwell)
+ Kitap eklendi → Suç ve Ceza (Dostoyevski)
 
-📚 Kayıtlı Kitaplar:
+ Kayıtlı Kitaplar:
 1 | 1984 - George Orwell
 2 | Suç ve Ceza - Dostoyevski
 
 🗑 Kitap silindi → ID: 1
 
-📚 Kayıtlı Kitaplar:
+ Kayıtlı Kitaplar:
 2 | Suç ve Ceza - Dostoyevski
 ```
 
-## ✍ Proje Amacı
+## Proje Amacı
 
 Bu uygulama, yazılım geliştirme öğrencilerinin **OOP – JDBC – SQL – Repository – Veri işleme – Katmanlı mimari** kavramlarını gerçek bir senaryo üzerinden öğrenmesini amaçlar. Akademik proje ve final teslimleri için uygun bir yapıdadır.
 
