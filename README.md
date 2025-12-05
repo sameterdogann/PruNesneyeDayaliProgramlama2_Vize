@@ -1,7 +1,23 @@
 # 📚 SmartLibrary  
 ### Java • SQLite • JDBC • OOP • Maven Konsol Uygulaması
 
-> SmartLibrary, üniversite seviyesinde **kütüphane yönetim sistemi** geliştirme amaçlı hazırlanmış;  
+## 👨‍💻 Proje Sahibi
+
+- ****Ad Soyad:**** Samet ERDOĞAN
+
+- ****Öğrenci Numarası:**** 20230108039
+
+- ****Bölüm:**** Bilgisayar Programcılığı
+
+- ****Ders Adı:**** Nesneye Dayalı Programlama 2
+
+- ****Ders Kodu:**** BIP2037
+
+- ****Öğretim Görevlisi:**** Emrah SARIÇİÇEK
+
+- ****Teslim Tarihi:**** 05/12/2025
+
+> SmartLibrary, **kütüphane yönetim sistemidir**;  
 > **Java OOP + SQLite + JDBC** tabanlı, CRUD işlemleri içeren bir **masaüstü konsol uygulamasıdır**.
 
 Bu proje kapsamında:
@@ -15,25 +31,7 @@ Bu proje kapsamında:
 ✔ SQLite veritabanı dosyası oluşturma  
 ✔ Repository katmanı ile modüler mimari  
 
-tümü eksiksiz olarak uygulanmıştır.
-
----
-
-## 📁 Proje Klasör Yapısı
-
-```
-SmartLibrary/
-│── pom.xml
-│── smartlibrary.db   <-- Program çalışınca otomatik oluşur
-└── src/
-    └── main/
-        └── java/
-            └── com/smartlibrary/
-                ├── Main.java               (Çalıştırma noktası)
-                ├── DatabaseHelper.java     (Bağlantı + CRUD altyapısı)
-```
-
-> Kullanıcı menülü sürüm, Book-Student-Loan repository sınıfları eklendiğinde yapı büyümeye uygun tasarlanmıştır.
+tümü programda uygulanmıştır.
 
 ---
 
@@ -41,8 +39,8 @@ SmartLibrary/
 
 | Teknoloji | Kullanım Amacı |
 |---|---|
-| **Java 17+** | Ana geliştirme dili |
-| **SQLite** | Hafif veritabanı – dosya tabanlı |
+| **Java ** | Ana geliştirme dili |
+| **SQLite** | Veritabanı – dosya tabanlı |
 | **JDBC + PreparedStatement** | Güvenli SQL CRUD işlemleri |
 | **OOP** | Class – Constructor – Encapsulation – Nesne ilişkileri |
 | **Maven** | Bağımlılık yönetimi |
@@ -53,7 +51,7 @@ SmartLibrary/
 ## 📦 Kurulum
 
 ### 1️⃣ Projeyi IntelliJ IDEA ile Aç  
-✔ File → Open → SmartLibrary klasörünü seç  
+✔ File → Open → PruNesneyeDayaliProg2_Vize klasörünü seç  
 
 ---
 
@@ -122,6 +120,7 @@ F --> G[Program Sonlanır]
 ## 🧪 Örnek Çalıştırma Çıktısı
 
 ```
+(**Önemli Not :**Listeleme Sorgularını yapmadan önce lütfen öğrenci ve kitap ekleyin.)
 ✔ SQLite bağlantısı başarılı.
 📌 Tablo kontrol edildi/oluşturuldu.
 📗 Kitap eklendi → 1984 (George Orwell)
@@ -156,7 +155,3 @@ F --> G[Program Sonlanır]
 Bu uygulama, yazılım geliştirme öğrencilerinin **OOP – JDBC – SQL – Repository – Veri işleme – Katmanlı mimari** kavramlarını gerçek bir senaryo üzerinden öğrenmesini amaçlar. Akademik proje ve final teslimleri için uygun bir yapıdadır.
 
 ---
-
-## 🏁 Hazırlayan  
-> *Samet Erdoğan & ChatGPT destekli geliştirme*  
-📌 2025 – Üniversite OOP Proje Teslimi
