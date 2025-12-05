@@ -45,6 +45,8 @@ tümü programda uygulanmıştır.
 | **OOP** | Class – Constructor – Encapsulation – Nesne ilişkileri |
 | **Maven** | Bağımlılık yönetimi |
 | **Console UI** | Kullanıcı etkileşimli menü |
+| **Tavsiye Edilen ve Geliştirilen IDE:** |IntelliJ IDEA 2024.3.4 |
+
 
 ---
 
@@ -101,19 +103,7 @@ smartlibrary.db
 | 🎓 Öğrenci Ekleme (Genişletilebilir) | Student repository yapısı için hazır |
 | 🔄 Ödünç Alma – İade | Loan işlemleri için altyapı oluşturuldu |
 
----
-
-## 📌 Kod Akışı
-
-```
-flowchart TD
-A[Program Başlar] --> B[DatabaseHelper.createTable()]
-B --> C[addBook()]
-C --> D[listBooks()]
-D --> E[deleteBook()]
-E --> F[listBooks()]
-F --> G[Program Sonlanır]
-```
+---`
 
 ---
 
@@ -135,20 +125,6 @@ F --> G[Program Sonlanır]
 📚 Kayıtlı Kitaplar:
 2 | Suç ve Ceza - Dostoyevski
 ```
-
----
-
-## 🔥 Geliştirilebilir Yapı
-
-| Geliştirme | Durum |
-|---|---|
-| Kullanıcı giriş sistemi | Eklenebilir |
-| Swing/JavaFX arayüzü | Uygun |
-| Kitap süre kontrolü | Eklenebilir |
-| Gecikme cezası sistemi | Uygun |
-| PDF/Excel rapor alma | Genişletilebilir |
-
----
 
 ## ✍ Proje Amacı
 
