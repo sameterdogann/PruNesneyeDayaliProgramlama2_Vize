@@ -105,7 +105,7 @@ smartlibrary.db
 
 ## 📌 Kod Akışı
 
-```mermaid
+```
 flowchart TD
 A[Program Başlar] --> B[DatabaseHelper.createTable()]
 B --> C[addBook()]
@@ -120,7 +120,7 @@ F --> G[Program Sonlanır]
 ## 🧪 Örnek Çalıştırma Çıktısı
 
 ```
-(**Önemli Not :**Listeleme Sorgularını yapmadan önce lütfen öğrenci ve kitap ekleyin.)
+## (Önemli Not :Listeleme Sorgularını yapmadan önce lütfen öğrenci ve kitap ekleyin.)
 ✔ SQLite bağlantısı başarılı.
 📌 Tablo kontrol edildi/oluşturuldu.
 📗 Kitap eklendi → 1984 (George Orwell)
